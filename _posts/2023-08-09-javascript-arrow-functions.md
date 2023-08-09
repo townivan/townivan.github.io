@@ -16,7 +16,9 @@ const yell = function(msg){
 }
 ```
 
-ES6 introduced "arrow functions" into the mix.  It's good to know these because many code examples will assume that you do.
+Both of these will work with "arrow functions" which were introduced into the JavaScript with ES6.  (If you don't need to support IE11, you can use ES6 based JavaScript)
+
+It's good to understand arrow functions because many online code examples will assume that you do.
 
 Let's learn about these by considering how to work with an array.
 
