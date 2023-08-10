@@ -78,11 +78,13 @@ function myFunction2(e, input1){
 
 If you are dynamically adding buttons, you have to add an event listener event each time you create the DOM element... **OR** you can use event delegation to watch for events than happen on a parent...
 
-```js
+```html
 <div class="parent">
     <button class="btn">mybtn</button>
 </div>
+```
 
+```js
 parent.addEventListener('click', myFunction3);
 
 function myFunction3(e){
