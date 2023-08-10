@@ -59,7 +59,7 @@ btn.addEventListener('click', myFunction1);
 function myFunction1(e){
     console.log('welcome to myFunction1()...')
     console.log(e)
-    e.preventDefault(); // optional to stop the event from bubbling (doesn't work if passive mode is activated... see below)
+    e.preventDefault(); // optional to stop the event from bubbling
 }
 ```
 
