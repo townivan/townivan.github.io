@@ -141,8 +141,8 @@ btn.addEventListener('click', () => {
 });
 ```
 
-In Javascript the this keyword is always a reference to the object that called the function.
+In Javascript the `this` keyword is always a reference to the object that called the function.
 
-An ordinary function rebinds 'this'.  An anonymouse function (arrow function) doesn't.
+An ordinary function rebinds `this`.  An anonymouse function (arrow function) doesn't.
 
-The confusion around using 'this' IMO is best avoided by not trying to force JS to work in the OOP paradigm.
+The confusion around using `this` IMO is best avoided by not trying to force JS to work in the Object-oriented programming (OOP) paradigm with classes.  
