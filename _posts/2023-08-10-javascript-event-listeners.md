@@ -6,7 +6,7 @@ tags: JavaScript
 
 When using regular JavaScript, sometimes known as vanilla JavaScript, don't write your event listeners like this:
 
-```js
+```html
 <button class="btn" onclick="myFunction()">mybtn</button>
 ```
 
