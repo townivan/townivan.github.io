@@ -2,7 +2,7 @@
 tags: html
 ---
 
-# Avoid the missing favicon error
+# html: Avoid the missing favicon error
 
 Does seeing this error in your console log annoy you?
 
