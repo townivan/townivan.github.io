@@ -1,3 +1,7 @@
+---
+tags: JavaScript
+---
+
 # JavaScript: Event Listeners
 
 When using regular JavaScript, sometimes known as vanilla JavaScript, don't write your event listeners like this:
