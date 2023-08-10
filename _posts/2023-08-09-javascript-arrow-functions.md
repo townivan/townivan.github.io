@@ -20,7 +20,7 @@ const yell = function(msg){
 }
 ```
 
-Both of these will work with "arrow functions" which were introduced into the JavaScript with ES6.  (If you don't need to support IE11, you can use ES6 based JavaScript)
+Both of these will work with "arrow functions" which were introduced into JavaScript with ES6.  (If you don't need to support IE11, you can use ES6 based JavaScript)
 
 It's good to understand arrow functions because many online code examples will assume that you do.
 
