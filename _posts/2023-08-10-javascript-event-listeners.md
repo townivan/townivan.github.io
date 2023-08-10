@@ -2,7 +2,7 @@
 tags: js
 ---
 
-# js: Event Listeners
+# js: Event listeners
 
 ## TLDR snippet!
 
