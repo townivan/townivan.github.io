@@ -56,7 +56,7 @@ btn.addEventListener('click', e => {
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', myFunction);
 
-function myFunction1(e){
+function myFunction(e){
     console.log('welcome to myFunction()...')
     console.log(e)
 }
@@ -68,7 +68,7 @@ What about passing parameters?  Wrap it in a function:
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', (e)=>{myFunction(e, 'lalala')});
 
-function myFunction2(e, input1){
+function myFunction(e, input1){
     console.log('welcome to myFunction...')
     console.log(e)
     console.log('input1:', input1)
@@ -86,7 +86,7 @@ If you are dynamically adding buttons, you have to add an event listener event e
 ```js
 parent.addEventListener('click', myFunction);
 
-function myFunction3(e){
+function myFunction(e){
     console.log('welcome to myFunction(e)...')
     console.log('e.target:', e.target)
     console.log('e.currentTarget:', e.currentTarget)
