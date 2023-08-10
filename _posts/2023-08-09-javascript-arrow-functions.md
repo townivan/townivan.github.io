@@ -1,3 +1,7 @@
+---
+tags: JavaScript
+---
+
 # JavaScript: Arrow functions
 
 This is your basic JavaScript function.  It's a "function declaration".
