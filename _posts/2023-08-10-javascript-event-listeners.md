@@ -4,6 +4,20 @@ tags: JavaScript
 
 # JavaScript: Event Listeners
 
+## TLDR snippet!
+
+```js
+btn.addEventListener('click', myFunction);
+
+function myFunction(e){
+    console.log(e)
+}
+```
+
+___
+
+## More details...
+
 When using regular JavaScript, sometimes known as vanilla JavaScript, don't write your event listeners like this:
 
 ```html
@@ -61,6 +75,7 @@ function myFunction(e){
     console.log(e)
 }
 ```
+Notice that the event object is automatically passed as the first parameter.  Keep that in mind if building a function that you might want to call elsewhere in your code, not just from your event handler.
 
 What about passing parameters?  Wrap it in a function:
 
