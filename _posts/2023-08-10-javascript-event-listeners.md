@@ -13,7 +13,7 @@ When using regular JavaScript, sometimes known as vanilla JavaScript, don't writ
 The two main reasons (there are others) for avoiding this are:
 
 1. It restricts you to a single event type for that element.  In the above example you would only be able to have one 'click' event.
-2. It makes a global event handler which can easily overwrite or be overwritten by later code.
+2. It makes a global event handler which can easily overwrite existing code or be overwritten by later code.
 
 Better to use .addEventListener
 
