@@ -50,7 +50,7 @@ btn.addEventListener('click', e => {
 });
 ```
 
-Better to use the selector/method/event pattern (best for being able to remove an eventListener later):
+**Better than both of those** is to use the selector/method/event pattern below:
 
 ```js
 const btn = document.querySelector('.btn');
