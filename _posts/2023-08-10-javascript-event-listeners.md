@@ -19,7 +19,7 @@ Better to use .addEventListener
 
 Let's say we have a basic button in our HTML.
 
-```js
+```html
 <button class="btn">mybtn</button>
 ```
 
