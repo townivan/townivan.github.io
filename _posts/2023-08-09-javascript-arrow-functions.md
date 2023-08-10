@@ -2,7 +2,7 @@
 tags: js
 ---
 
-# JavaScript: Arrow functions
+# js: Arrow functions
 
 This is your basic JavaScript function.  It's a "function declaration".
 
