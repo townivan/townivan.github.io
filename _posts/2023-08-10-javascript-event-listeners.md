@@ -23,24 +23,36 @@ Let's say we have a basic button in our HTML.
 <button class="btn">mybtn</button>
 ```
 
+**NOTE:** .addEventListener automatically returns the event object when it triggers.  This is often assigned to a variable 'e' by developers.
+
+If you console.log the event object you will see a lot of useful information about your triggered event.  The most useful are:
+
+1. e.target
+2. e.currentTarget
+
+e.currentTarget always refers to the element to which the event handler has been attached, as opposed to e.target, which identifies the element on which the event occurred and which may be its descendant.
+
+A basic anonymous function:
+
 ```js
-// basic anonymous function which passes the event object (the only allowed param)
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', function(e){
-    console.log(e);  // e.target and e.currentTarget are useful properties of e
+    console.log(e);
 });
 ```
 
+A basic arrow function:
+
 ```js
-// basic arrow function which passes the event object (the only allowed param)
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', e => {
     console.log(e); 
 });
 ```
 
+Better to use the selector/method/event pattern (best for being able to remove an eventListener later):
+
 ```js
-// better to use the selector/method/event pattern (best for being able to remove an eventListener later)
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', myFunction1);
 
@@ -51,8 +63,9 @@ function myFunction1(e){
 }
 ```
 
+What about passing parameters?  Wrap it in a function:
+
 ```js
-// what about passing parameters?  Wrap it in a function
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', (e)=>{myFunction2(e, 'lalala')});
 
@@ -64,8 +77,6 @@ function myFunction2(e, input1){
 ```
 
 If you are dynamically adding buttons, you have to add an event listener event each time you create the DOM element... **OR** you can use event delegation to watch for events than happen on a parent...
-
-
 
 ```js
 <div class="parent">
