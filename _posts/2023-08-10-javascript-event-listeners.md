@@ -90,7 +90,7 @@ function myFunction(e, input1){
 }
 ```
 
-If you are dynamically adding buttons, you have to add an event listener event each time you create the DOM element... **OR** you can use event delegation to watch for events than happen on a parent...
+If you are dynamically adding buttons, you have to add an event listener event each time you create the DOM element... **OR** you can use event _delegation_ to watch for events than happen on a parent...
 
 ```html
 <div class="parent">
