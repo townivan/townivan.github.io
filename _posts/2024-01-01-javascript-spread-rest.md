@@ -10,7 +10,7 @@ tags: js
 const pNodeList = document.querySelectorAll('p');
 const pArray = [...pNodeList]; // This is spread.  Notice that it lives in an array.
 
-function myProfile(firstName, lastName, ...more) { // This is rest.  Notice that it's a parameter to a function.
+function myProfile(firstName, lastName, ...more) { // This is rest.  Notice that it is a parameter to a function.
   return more; // Any extra received arguments are put into an array that we named 'more'.
 }
 console.log(myProfile('Ed', 'Smith', 18, 'Male', 'Boxer')); // (3) [18, 'Male', 'Boxer']
