@@ -90,7 +90,7 @@ names.forEach((name,i) => {
 });
 ```
 
-if you don't need more than a single parameter, you also don't need the parenthesis around the parameter...
+if you don't need more than a single parameter, you also don't need the parentheses around the parameter...
 
 ```javascript
 names.forEach(name => {
@@ -155,4 +155,4 @@ You might see an arrow function that looks like this:
 () => ({}) // passing a object literal {}
 ```
 
-The extra paratheses are used to indicate that the upcoming `{` is part of an object literal instead of the starting `{` for the function scope.
+The extra parentheses are used to indicate that the upcoming `{` is part of an object literal instead of the starting `{` for the function scope.
