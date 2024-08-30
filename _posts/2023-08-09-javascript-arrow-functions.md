@@ -146,3 +146,13 @@ In Javascript the `this` keyword is always a reference to the object that called
 An ordinary function rebinds `this`.  An anonymous function (arrow function) doesn't.
 
 The confusion around using `this` IMO is best avoided by not trying to force JS to work in the Object-oriented programming (OOP) paradigm with classes.  
+
+## Misc
+
+You might see an arrow function that looks like this:
+
+```javascript
+() => ({}) // passing a object literal {}
+```
+
+The extra paratheses are used to indicate that the upcoming `{` is part of an object literal instead of the starting `{` for the function scope.
