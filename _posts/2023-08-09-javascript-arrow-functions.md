@@ -115,9 +115,9 @@ names.forEach(name => console.log('the name is: ' + name));  // right!
 
 ## So, other than shorter syntax, why bother using an arrow function?
 
-### Reason 1: Implict returns
+### Reason 1: Implict returns (only for one-line arrow functions)
 
-Very often functions are built to return some computed value.  A one-line arrow function assumes this, allowing you to skip writing a 'return' line.
+Very often functions are built to return some computed value.  A *one-line* arrow function assumes this, allowing you to skip writing a 'return' line.
 
 This is more relevant with iteration methods that expect a return, like .map()
 
@@ -143,6 +143,6 @@ btn.addEventListener('click', () => {
 
 In Javascript the `this` keyword is always a reference to the object that called the function.
 
-An ordinary function rebinds `this`.  An anonymouse function (arrow function) doesn't.
+An ordinary function rebinds `this`.  An anonymous function (arrow function) doesn't.
 
 The confusion around using `this` IMO is best avoided by not trying to force JS to work in the Object-oriented programming (OOP) paradigm with classes.  
