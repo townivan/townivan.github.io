@@ -61,4 +61,4 @@ These techniques are similar.  Simply put, both help you postpone and reduce the
 
 ## Helpful links on this subject
 
-[[https://blog.webdevsimplified.com/2022-01/event-listeners/](https://dev.to/jeetvora331/javascript-debounce-easiest-explanation--29hc)]([https://blog.webdevsimplified.com/2022-01/event-listeners/](https://dev.to/jeetvora331/javascript-debounce-easiest-explanation--29hc))
+[https://blog.webdevsimplified.com/2022-01/event-listeners/](https://dev.to/jeetvora331/javascript-debounce-easiest-explanation--29hc)](https://blog.webdevsimplified.com/2022-01/event-listeners/](https://dev.to/jeetvora331/javascript-debounce-easiest-explanation--29hc)
