@@ -63,4 +63,4 @@ These techniques are similar.  Simply put, both help you postpone and reduce the
 
 [https://dev.to/jeetvora331/javascript-debounce-easiest-explanation--29hc](https://dev.to/jeetvora331/javascript-debounce-easiest-explanation--29hc)
 
-[http://demo.nimius.net/debounce_throttle/](http://demo.nimius.net/debounce_throttle/)
+https://web.archive.org/web/20220117092326/http://demo.nimius.net/debounce_throttle/
